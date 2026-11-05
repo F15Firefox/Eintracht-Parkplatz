@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://stores.eintracht.de/tickets/info-service/parkplatz-prebooking/"
+URL = "https://stores.eintracht.de/tickets/info-service/parken-am-heimspieltag/"
 STATE = Path("state.json")
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
